@@ -6,7 +6,24 @@ Files from both sources are provided in CSV and ARFF format. The data is present
 
 ## Testbed Information
 
-We conducted the experiments in the (Robotic Assisted Living Testbed)[https://ralt.hw.ac.uk/]
+We conducted the experiments in the [Robotic Assisted Living Testbed](https://ralt.hw.ac.uk/) at Heriot-Watt University.
+
+The RALT is a 60 sq. metre fully furnished apartment, complete with combined living/dining/kitchen area, bedroom, and bathroom.
+
+## Hardware Information
+
+For the collection of the RFID data, we utilised a hardware setup of:
+* 1 x IMPINJ Speedway Revolution R420 UHF RFID Reader
+* 4 x Laird Far-Field RAIN RFID Antenna (865-868MHz)
+* Approx. 196 x IMPINJ RFID Monza 4QT Tags (on floor)
+
+We placed four tags each on 60 sq. cm Ethylene Vinyl Acetate (EVA) floor mats, for easy installation.
+
+We placed these mats across the the bedroom and kitchen of the testbed.
+
+![bedroom_with_tags](/images/bedroom_with_tags.JPG)
+
+The reader was configured to operate in 'AutoSet Dense Reader Deep Scan' mode, for wide coverage.
 
 ## Dataset Information
 
