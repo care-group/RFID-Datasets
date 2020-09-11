@@ -27,9 +27,34 @@ The reader was configured to operate in 'AutoSet Dense Reader Deep Scan' mode, f
 
 ## Dataset Information
 
-We recorded data via naturalistic 'Activity Pathways', with human participants taking approx. 45 minutes per session of activities.
+We collected data from a total of six participants, where Participant 2 took part in multiple sessions to enable inter vs intra-user performance comparison.
 
-The RFID dataset contains a total of 25,924 snapshots of data.
+| Participant | Session Date | Day # |
+|:-----------:|:------------:|:-----:|
+|    PID001   |  24/07/2019  |   1   |
+|   PID002A   |  24/07/2019  |   1   |
+|   PID002B   |  30/07/2019  |   7   |
+|   PID002C   |  30/07/2019  |   7   |
+|   PID002D   |  30/07/2019  |   7   |
+|   PID002E   |  30/07/2019  |   7   |
+|    PID003   |  31/07/2019  |   8   |
+|    PID004   |  31/07/2019  |   8   |
+|    PID005   |  01/08/2019  |   9   |
+|    PID006   |  01/08/2019  |   9   |
+
+We recorded data via naturalistic 'Activity Pathways', with human participants taking approx. 45 minutes per session of activities. This involved asking participants to behave in a natural way, as if they were at home, as they moved throughout the testbed (between the two rooms) to perform routine daily activities, such as: sleeping, dressing, brushing teeth, brushing hair, preparing coffee, preparing a sandwich, eating, reading a book/newspaper, and washing dishes.
+
+The location labels in the dataset represent semantic zones (identified after footage review) where the participants spend the practically all of their time outside of transitional states between activities and locations. These zones are reflected in the image below:
+
+![tag_map](/images/tag_map.png)
+
+The RFID dataset contains a total of 25,924 snapshots of data, where snapshots were recorded at a rate of one snapshot per second. This therefore represents around 7 hours and 12 minutes of raw data.
+
+In the CSV and ARFF files of the RFID data, there are 196 target features, which are the tag identifiers of the 196 floor tags used in the study. The identifiers of these tags are also provided in the ```tags.txt``` file, for reference. The placement of these tags is also identified in the above image.
+
+The penultimate byte of the tag identifier represents the room in which the tag was placed:
+* ```2222xxxx``` = kitchen
+* ```3333xxxx``` = bedroom
 
 ## Citation
 
