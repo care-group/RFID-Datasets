@@ -44,7 +44,7 @@ We collected data from a total of six participants, where Participant 2 took par
 
 We recorded data via naturalistic 'Activity Pathways', with human participants taking approx. 45 minutes per session of activities. This involved asking participants to behave in a natural way, as if they were at home, as they moved throughout the testbed (between the two rooms) to perform routine daily activities, such as: sleeping, dressing, brushing teeth, brushing hair, preparing coffee, preparing a sandwich, eating, reading a book/newspaper, and washing dishes.
 
-The location labels in the dataset represent semantic zones (identified after footage review) where the participants spend the practically all of their time outside of transitional states between activities and locations. These zones are reflected in the image below:
+The location labels in the dataset represent semantic zones (identified after footage review) where the participants spend practically all of their time outside of transitional states between activities and locations. These zones are reflected in the image below:
 
 ![tag_map](/images/tag_map.png)
 
